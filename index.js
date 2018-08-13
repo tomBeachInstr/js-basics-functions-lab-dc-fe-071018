@@ -1,4 +1,5 @@
 function distanceFromHqInBlocks(distance) {
+  console.log("distanceFromHqInBlocks:", distanceFromHqInBlocks)
   if (distance === 43) {
     return 1;
   } else if ((distance === 50) || (distance === 34)) {
